@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/default.css">
+    <link rel="stylesheet" href="css/pokeetype.css">
+    
+    <script defer src="./js/main.js"></script>
+    <link rel="icon" type="image/x-icon" href="assets/image-removebg-preview.png">
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <title>Poke Api</title>
+
+
+</head>
+<body>
+
+<header class="cabecalho">
+    <img src="assets/pokemonTitle-removebg-preview (1).png" alt="pokemonlogo" width="200px" class="pokemonlogo">
+</header>
+
+<main>
+
+    <img src="#" alt="pokemon" class="pokemon__image">
+
+    <div class="pokedexxx">
+        <img src="assets/pokedex.png" alt="pokedex" class="pokedex">
+
+        <h1 class="pokemon__data">
+            <span class="pokemon__number"></span> -
+            <span class="pokemon__name"></span>
+          </h1>
+      
+          <form class="form">
+            <input
+              type="search"
+              class="input__search"
+              placeholder="Name or Number"
+              required
+            />
+          </form>
+    </div>
+
+    
+    <div class="buttons">
+        <button class="button btn-prev">Prev &lt;</button>
+        <button id="button btn-info" class="button btn-info"> info </button>
+        <button class="button btn-next">Next &gt;</button>
+      </div>
+</main>
+
+<!-- usando o w3Schools para fazer o modal -->
+
+<div id="modal" class="modal" tabindex="-1"  role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true"  data-backdrop="static" style="display: none;">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h2 class="h2"> POKEMON INFO: </h2>
+      <br>
+
+      <section class="size">
+        <p class="pokemonWeight"></p>
+        <p class="pokemonHeight"></p>
+    </section>
+      <br>
+
+       <h3> type: </h3> 
+       <br>
+
+       <section class="pokmeonTypes"></section>
+
+       <br>
+
+       <h3>Abilities: </h3>
+       <section class="pokmeonAbilities"></section>
+
+      <br>
+      <h3> Base Stats </h3>
+      <br>
+      <section class="pokeStats"></section>
+      <section class="pokeStats1"></section>
+      <section class="pokeStats2"></section>
+      <section class="pokeStats3"></section>
+      <section class="pokeStats4"></section>
+      <section class="pokeStats5"></section>
+
+      </section>
+
+
+  </div>
+</div>
+
+<footer class="footer">
+<a class="github2" href="https://github.com/DeviniN"><img class="pokebola" src="assets/image-removebg-preview.png" alt="github" width="50"> <p class="github">github</p> </a>
+</footer>  
+
+</body>
+</html>
