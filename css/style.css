@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
+*{
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+   font-family: "Pixelify Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+    background-image: url(https://www.pokebip.com/pages/jeuxvideo/rse/map_hoenn/route115.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    min-height: 100vh;
+}
+
+
+
+main {
+   display: inline-block;
+   margin-top: 2%;
+   position: relative;
+   right: 18.75rem; 
+}
+
+.pokedexxx {
+   width: 100%;
+   max-width: 425px;
+   /* position: absolute;
+   /* top: 150px;  */
+ 
+   /* bottom: 150px;
+   z-index: 10; */ 
+}
+
+.pokemon__image {
+   position: absolute;
+   bottom: 55%;
+   left: 47%;
+transform: translate(-63%, 0);
+height: 15%;
+}
+
+.pokemon__data {
+   position: absolute;
+   font-weight: 600;
+   color: #aaa;
+   top: 53.5%;
+   right: 27%;
+   font-size: clamp(8%, 5vw, 25px);
+
+}
+
+.pokemon__name {
+   color: #3a444d;
+   text-transform: capitalize;
+}
+
+.form {
+   position: absolute;
+   width: 65%;
+   top: 65%;
+   left: 13.5%;
+
+}
+
+.input__search {
+   width: 100%;
+   padding: 4%;
+   outline: none;
+   border: 2px solid #333;
+   border-radius: 5px;
+   font-weight: 600;
+   color: #3a444d;
+   font-size: clamp(8%, 5vw, 1rem);
+   box-shadow: -3px 4px 0 #888, -5px 7px 0 #333
+}
+
+.buttons {
+   position: absolute;
+   bottom: 10%;
+   left: 50%;
+   width: 65%;
+   transform: translate(-57%, 0);
+   display: flex;
+   gap: 20px;
+ }
+ 
+ .button {
+   width: 50%;
+   padding: 4%;
+   border: 2px solid #000;
+   border-radius: 5px;
+   font-size: clamp(8px, 5vw, 1rem);
+   font-weight: 600;
+   color: white;
+   background-color: #444;
+   box-shadow: -2px 3px 0 #222, -4px 6px 0 #000;
+ }
+ 
+ .button:active {
+   box-shadow: inset -4px 4px 0 #222;
+   font-size: 0.9rem;
+ }
+
+ .github {
+   color: aliceblue ;
+
+ }
+
+ .github2 { 
+   text-decoration: none;
+ }
+/* 
+/* Estilos para o modal */
+.modal {
+   display: none; /* Oculto por padrão */
+   position: fixed;
+   z-index: 1;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+   overflow: auto;
+   background-color: rgba(0, 0, 0, 0.5);
+   padding-top: 60px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ }
+ 
+ /* Estilos para o conteúdo do modal */
+ .modal-content {
+   background-image: url(https://i.pinimg.com/736x/76/19/91/761991b3ecefbea73cb95eb80fc81082.jpg);
+   position: absolute;
+   left: 50%;
+   top: 18%;
+   background-color: #fefefe;
+   padding: 20px;
+   border: 1px solid #888;
+   width: 0; /* Começa com largura zero */
+   height: 0; /* Começa com altura zero */
+   opacity: 0; /* Invisível no início */
+   transform: translate(-50%, -50%) scale(0.5);
+   transition: opacity 300ms ease-in-out,
+               top 1000ms ease-in-out,
+               transform 1000ms ease-in-out
+ }
+ 
+ /* Adiciona a animação quando o modal está visível */
+ .modal.show .modal-content {
+   border-radius: 05%;
+   width: 425px; /* Largura final */
+   height: 634px; /* Altura final */
+   opacity: 1; /* Torna visível */
+   transform: scale(1); /* Escala para o tamanho completo */
+ }
+ 
+ /* Estilo do botão de fechar */
+ .close {
+   color: #aaa;
+   float: right;
+   font-size: 28px;
+   font-weight: bold;
+ }
+ 
+ .close:hover,
+ .close:focus {
+   color: black;
+   text-decoration: none;
+   cursor: pointer;
+ }
+  
+ .h2 {
+   color: aliceblue;
+ }
+
+ h3{
+   color: rgb(27, 27, 27);
+ }
+
