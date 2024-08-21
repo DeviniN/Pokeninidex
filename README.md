@@ -11,3 +11,6 @@ Landing Page com Pokedex interativa, iniciando no pokemon "1" / Bulbasaur, segui
 * Prev = para o pokémon anterior
 
 e um botão no footer o qual direciona para minha página do Github!
+
+## realizei deploy com o vercel!
+pokeninidex.vercel.app
